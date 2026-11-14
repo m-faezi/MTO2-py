@@ -47,10 +47,10 @@ def validate_crop_coordinates(value, image_shape):
         height, width = image_shape
         x1, y1, x2, y2 = value
 
-        x1 = x1 if x1 >= 0 else width+x1
-        x2 = x2 if x2 >= 0 else width+x2
-        y1 = y1 if y1 >= 0 else height+y1
-        y2 = y2 if y2 >= 0 else height+y2
+        if x1 < 0 or x2 > width:
+            raise ValueError(f"x coordinates must be in range [0, {width}], got x1={x1}, x2={x2}")
+        if y1 < 0 or y2 > height:
+            raise ValueError(f"y coordinates must be in range [0, {height}], got y1={y1}, y2={y2}")
 
         if x1 >= x2 or y1 >= y2:
 
