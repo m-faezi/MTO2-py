@@ -1,6 +1,10 @@
 # MTO<span style="color:#FF0000">2</span> - <span  style="color:#666666">Astronomical Source Detection Tool</span>
 
-[![DOI](https://img.shields.io/badge/DOI-10.1515/ACCESS-8A2BE2.svg)](https://doi.org/10.1109/ACCESS.2024.3403309)
+> **Note on implementations**
+>
+> - **Original implementation (Rust):** [github.com/m-faezi/MTO2](https://github.com/m-faezi/MTO2)
+
+> - [![DOI](https://img.shields.io/badge/DOI-10.1515/ACCESS-8A2BE2.svg)](https://doi.org/10.1109/ACCESS.2024.3403309)
 [![Higra](https://img.shields.io/badge/Powered%20by-Higra-ffff00.svg)](https://higra.readthedocs.io/)
 [![Astropy](https://img.shields.io/badge/powered%20by-Astropy-D84315.svg)](https://www.astropy.org/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-66ff00.svg)](https://github.com/m-faezi/MTO2/blob/main/CONTRIBUTING.md)
